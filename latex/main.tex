@@ -1,0 +1,43 @@
+\documentclass{beamer}% for teacher version
+
+\usetheme{metropolis}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{ulem}
+\usepackage{textcomp}
+
+\usepackage{multiaudience}
+
+\SetNewAudience{teacher}
+\SetNewAudience{students}
+
+\DefCurrentAudience{teacher}
+%\DefCurrentAudience{students}
+
+\title{Statistics and Data Analysis}
+\subtitle{Energy Technology, Spring 2019}
+\date{\today}
+\author{Krzysztof Arendt\\
+        Assistant Professor}
+\institute{Center for Energy Informatics,\\University of Southern Denmark}
+
+\begin{document}
+\maketitle
+
+\begin{frame}{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\include{introduction}              % L1
+\include{fundamentals}              % L1
+\include{probability}               % L2
+\include{distributions}             % L3-4
+\include{inference}                 % L5-6
+\include{linear-regression}         % L7-8
+\include{anova}                     % L9
+
+%\include{revised-schedule}
+
+\end{document}
